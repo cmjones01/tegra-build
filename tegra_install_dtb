@@ -1,0 +1,2 @@
+#!/bin/bash
+scp arch/arm/boot/dts/tegra124-meerkat-opticorder.dtb root@belkin-usb:/boot

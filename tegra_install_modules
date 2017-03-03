@@ -1,0 +1,4 @@
+#!/bin/bash
+rm $INSTALL_MOD_PATH/lib/modules/*/build
+rm $INSTALL_MOD_PATH/lib/modules/*/source
+rsync -avze ssh $INSTALL_MOD_PATH/lib/modules root@belkin-usb:/lib/modules

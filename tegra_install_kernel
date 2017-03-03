@@ -1,0 +1,4 @@
+#!/bin/bash
+rm $INSTALL_PATH/*old
+scp $INSTALL_PATH/vmlinuz* root@belkin-usb:/boot
+
